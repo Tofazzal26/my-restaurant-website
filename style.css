@@ -141,6 +141,7 @@ body{
 	gap: 50px;
 	margin: 50px 0;
 	align-items: center;
+	margin-bottom: 10rem;
 }
 .menu .discount{
 	align-self: center;
@@ -184,3 +185,62 @@ body{
 }
 
 /* menu section end */
+
+
+
+
+
+
+
+/* footer section start */
+
+
+.footer-mother {
+	color: white;
+	width: 100%;
+	height: 32rem;
+	background-color: #171616;
+	position: relative;
+}
+
+.footer-container {
+	display: flex;
+	text-align: center;
+	position: relative;
+}
+
+.style-container {
+	width: 600px;
+}
+
+.style-container h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+
+.style-container p {
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+.style-container i {
+	font-size: 1.8rem;
+	margin: 8px;
+	padding: 8px;
+	background-color: #286b3a;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.style-container i:hover {
+	background-color: crimson;
+}
+
+.list-container {
+	margin: 4rem;
+	padding: 0.6rem;
+}
+
+
+
+/* footer section end */
